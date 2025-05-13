@@ -3,8 +3,24 @@
 ## 📌 Objective
 Develop an ethical web scraping pipeline that extracts remote job listings from public job boards, cleans and stores the data in structured formats, and uses AI tools to extract insights like required skills. The final output includes dashboards showing skill trends by job title, company, or location.
 
+---
+
 ## Overview
 A project that scrapes job boards, cleans and stores data, and uses AI to extract skill trends from job descriptions.
+
+---
+
+## 📊 Live Demo (GIF)
+
+![Dashboard Demo](assets/demo.gif)
+
+---
+
+## Demo Video
+
+https://drive.google.com/file/d/1e2A6_PG3kAy0oTwFWEQtDB9_ZHPYAaAb/view?usp=sharing
+
+---
 
 ## Features
 - Ethical scraping with Selenium
@@ -12,8 +28,12 @@ A project that scrapes job boards, cleans and stores data, and uses AI to extrac
 - Structured SQL/CSV storage
 - Visual dashboards for skill analysis
 
+---
+
 ## Technologies Used
 Python, Selenium, BeautifulSoup, Firecrawl/OpenAI, SQL, Matplotlib, Git
+
+---
 
 ## How to Run
 1. Clone repo
@@ -21,9 +41,13 @@ Python, Selenium, BeautifulSoup, Firecrawl/OpenAI, SQL, Matplotlib, Git
 3. Update config.py
 4. Run scripts in order
 
+---
+
 ## Ethical Notes
 - Fully respects robots.txt
 - Scrapes only publicly available, non-authenticated pages
+
+---
 
 ## 📁 Folder Structure
 job_listings_analyzer/
@@ -48,6 +72,8 @@ job_listings_analyzer/
 ├── README.md                  
 └── config.py                  # Configurable variables (URLs, delay, selectors, etc.)
 
+
+---
 
 ## 🧠 Core Technologies & Libraries
 - Python, Selenium, BeautifulSoup
